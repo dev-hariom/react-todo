@@ -1,0 +1,38 @@
+/* @import "tailwindcss"; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { 
+ margin: 0; 
+padding: 0; 
+box-sizing: border-box; 
+font-family: "Urbanist", sans-serif; 
+} 
+
+html {
+font-size: 62.5%; 
+} 
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {  
+color: #fff; 
+font-weight: 900; 
+} 
+
+h1 {  
+font-size: 3.2rem; 
+font-weight: bold;
+} 
+
+
+/* theme */  
+:root { 
+--primary-color:#1c2833;
+--secondary-color:#fff;
+--bg-color:#f2f3f4;
+}
